@@ -1,36 +1,48 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Material UI</title>
     <link rel="stylesheet" href="style.css">
+   
 </head>
 <body>
     <div class="main">
         <h1 class="header">
             Material UI
         </h1>
+       
         <div class="side-nav">
             
                  <input class="input"/>
-                <button class="search-btn">Searh</button>
-       
+                <div class="search-btn"> <span class="material-symbols-outlined">
+                    search
+                    </span></div>
+               
            
             <div class="version">V1.1</div>
             <div class="docs">docs</div>
-            <button class="git">Github</button>
-            <div class="night">nightmode</div>
-        </div>
+            <a href="https://github.com/Nmnjainsite/Component-Library" class="git">Github</a>
+            <span class="material-symbols-outlined" id="night">
+                nightlight
+                </span>
+           
+        <img src="img.svg" class="image"></img>
         <div class="description">
         <p class="des col-1">Create accessible Components with speed</p>
         <p class="des col-2">This UI is a simple, modular and accessible component library that gives you the building blocks you need to build your applications.</p>
-        <button class="btn-1">Get Started</button>
-        <button class="btn-2">Github</button>
+        <button class="btn-1">Get Started<span class="material-symbols-outlined" style="position: relative; top: 6px; left:8px;">
+            arrow_forward
+            </span></button>
+        <button class="btn-2"> <a href="https://github.com/Nmnjainsite/Component-Library">Github</a></button>
     </div>
-   
-    </div>
+    
+</div>
+    <script src="app.js"></script>
     
 </body>
 </html>
