@@ -1,6 +1,8 @@
+
 :root {
-    --primary-color:#4c1d95;
-    --secondary-color:#f5f5f4;
+    --primary-color:skyblue;
+    --background-color:#f5f5f4;
+    --secondary-color:black;
 }
 body{
     display: flex;
@@ -16,9 +18,15 @@ body{
     align-self: center; */
     padding: 16px;
     margin: 15px;
-  
+  color: var(--secondary-color);
+;
+ 
 }
-
+.header-child{
+    color: var(--primary-color);
+    font-weight: bolder;
+   
+}
 .side-nav{
     display: flex;
     flex-wrap: wrap;
@@ -36,7 +44,13 @@ body{
    padding-inline-start: 35px;
    padding: 11px;
 }
-
+#left-drawer-icon{
+    position: relative;
+    top: 4.5rem;
+    font-size: 33px;
+ gap: 10px;
+ cursor: pointer;
+    }
 .search-btn{
     margin-left: auto;
  color: var(--primary-color);
@@ -90,6 +104,8 @@ text-decoration: none;
     color: var(--primary-color);
     position: relative;
 border: 1px solid skyblue;
+color: white;
+background-color: skyblue;
 border-radius: 3px;
 padding: 5px;
     top: -220px;
@@ -112,7 +128,7 @@ top: -650px;
 
 
 .btn-1{
-    color: whitesmoke;
+   
     position: relative;
     padding: 7px;
     font-size: 18px;
@@ -124,7 +140,10 @@ top: -650px;
 font-weight: bold;
 
 }
-
+.btn-1>a{
+    text-decoration: none;
+    color: whitesmoke;
+}
 .btn-2{
     color:white;
     top: -4px;

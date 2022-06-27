@@ -1,0 +1,60 @@
+@import"./style.css";
+@import"./install.css";
+
+.aside{
+    width: 180px;
+    font-size: medium;
+}
+.card{
+    font-size: 16px;
+}
+
+.heading-box{
+    border: 1px solid var(--primary-color);
+    text-align: center;
+  
+font-size: larger;
+
+}
+
+.heading-box:first-letter{
+    color: var(--primary-color);
+}
+
+.para::first-letter{
+    color: var(--primary-color);
+}
+
+.left-text{
+    border: 1px solid var(--primary-color);
+    text-align: left;
+    width: 60%;
+    padding: 1rem;
+}
+.right-text{
+    border: 1px solid var(--primary-color);
+    text-align: right;
+    width: 60%;
+    padding: 1rem;
+}
+
+.center-text{
+    border: 1px solid var(--primary-color);
+    text-align: center;
+    width: 60%;
+    padding: 1rem;
+}
+.small-text{
+    border: 1px solid var(--primary-color);
+    text-align: left;
+   font-size: 10px;
+    width: 60%;
+    padding: 1rem;
+}
+.grey-text{
+    border: 1px solid var(--primary-color);
+    text-align: left;
+    color: grey;
+    width: 60%;
+    padding: 1rem;
+}
