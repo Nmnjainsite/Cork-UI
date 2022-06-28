@@ -51,6 +51,9 @@ font-size: larger;
     width: 60%;
     padding: 1rem;
 }
+.nav-bar>ul{
+    height: 250vh;
+}
 .grey-text{
     border: 1px solid var(--primary-color);
     text-align: left;
@@ -58,3 +61,34 @@ font-size: larger;
     width: 60%;
     padding: 1rem;
 }
+
+
+.nav-signs{
+   margin-top: 5rem;
+    cursor: pointer;
+    display: inline-flex;
+ 
+    justify-content: center;
+    
+       border: 0px solid var(--primary-color);
+      
+       list-style: none;
+}
+
+ .nav-sign-link{
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-size: 30px;
+margin-left: 45rem;
+margin-top: -3rem;
+}
+
+#nav-sign-link2{
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-size: 30px;
+margin-right: 48rem;
+
+
+} 
+

@@ -1,4 +1,5 @@
 @import "./style.css";
+
 h1>a{
     text-decoration: none;
     color: var(--secondary-color);
@@ -21,7 +22,7 @@ margin: 0;
 padding: 0;
 border-right: 1px solid skyblue;
 width: 200px;
-
+height: 200vh;
 }
 .nav-bar li:hover{
     background-color: skyblue;
@@ -151,3 +152,47 @@ left: 10px;
       visibility: visible;
         }
 }
+
+footer{
+    
+    font-size: 20px;
+    background-color: var(--primary-color); 
+    /* box-shadow: 0 1rem 1rem rgba(0,0,0,0.12), 0 1rem 1rem rgba(0,0,0,0.24); */
+    font-weight: bold;
+ 
+    text-align: center;
+    padding: 1rem;
+  position: relative;
+  top:  50rem;
+    
+}
+
+
+footer>div{
+    margin-bottom: 10px;
+  
+}
+footer>i{
+    display: block;
+    margin-bottom: 1rem;
+}
+footer>li{
+    display: inline;
+    margin: 1rem;
+   
+    list-style: none;
+}
+
+.nav-signs{
+  
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.nav-sign-link{
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-size: 24px;
+   
+}
+

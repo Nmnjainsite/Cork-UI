@@ -1,0 +1,64 @@
+@import"./typography.css";
+
+.alert-box{
+  list-style: none;
+    width: 500px;
+    
+}
+
+#error-alert{
+    border: 1px solid var(--secondary-color);
+    background-color: red;
+    padding: 0.5rem;
+   
+}
+
+#warning-alert{
+    border: 1px solid var(--secondary-color);
+    background-color: yellow;
+    padding: 0.5rem;
+    
+}
+
+#info-alert{
+    border: 1px solid var(--secondary-color);
+    background-color: blue;
+    padding: 0.5rem;
+   
+}
+#success-alert{
+    border: 1px solid var(--secondary-color);
+    background-color: lightgreen;
+    padding: 0.5rem;
+}
+
+.paragraph{
+    list-style: none;
+    font-size: 16px;
+    width: 500px;
+}
+
+.para-error-text{
+    border: 1px solid red;
+    padding: 0.3rem;
+}
+.para-warning-text{
+    border: 1px solid yellow;
+    padding: 0.3rem;
+}
+.para-info-text{
+    border: 1px solid blue;
+    padding: 0.3rem;
+}
+.para-success-text{
+    border: 1px solid lightgreen;
+    padding: 0.3rem;
+}
+.nav-sign-link{
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-size: 30px;
+margin-left: 45rem;
+position: relative;
+top:-2.4rem
+}
