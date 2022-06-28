@@ -66,13 +66,7 @@ font-size: larger;
 .nav-signs{
    margin-top: 5rem;
     cursor: pointer;
-    display: inline-flex;
- 
-    justify-content: center;
-    
-       border: 0px solid var(--primary-color);
-      
-       list-style: none;
+   
 }
 
  .nav-sign-link{

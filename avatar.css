@@ -4,17 +4,23 @@
 .image-box{
    display: inline-flex;
  
-justify-content: center;
 
+justify-content: center;
+width: 400px;
    border: 1px solid var(--primary-color);
    height: 10vh;
    list-style: none;
 }
 
 .avatar-img{
-   
-    width: 45px;
     margin-top: 10rem;
-
+    width: 45px;
+  
   border-radius: 5rem;
+}
+
+footer{
+    color: black;
+    position: relative;
+    top: 5rem;
 }
