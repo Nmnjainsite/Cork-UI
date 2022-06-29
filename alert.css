@@ -2,7 +2,7 @@
 
 .alert-box{
   list-style: none;
-    width: 500px;
+    width: 80%;
     
 }
 
@@ -35,7 +35,7 @@
 .paragraph{
     list-style: none;
     font-size: 16px;
-    width: 500px;
+    width: 80%;
 }
 
 .para-error-text{
@@ -54,11 +54,11 @@
     border: 1px solid lightgreen;
     padding: 0.3rem;
 }
-.nav-sign-link{
+/* .nav-sign-link{
     text-decoration: none;
     color: var(--secondary-color);
     font-size: 30px;
 margin-left: 45rem;
 position: relative;
 top:-2.4rem
-}
+} */

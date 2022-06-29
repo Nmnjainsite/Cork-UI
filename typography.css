@@ -1,8 +1,8 @@
 @import"./style.css";
 @import"./install.css";
-
+@import"./avatar.css";
 .aside{
-    width: 180px;
+    width: 14%;
     font-size: medium;
 }
 .card{
@@ -12,7 +12,7 @@
 .heading-box{
     border: 1px solid var(--primary-color);
     text-align: center;
-  
+  width: 80%;
 font-size: larger;
 
 }
@@ -28,28 +28,28 @@ font-size: larger;
 .left-text{
     border: 1px solid var(--primary-color);
     text-align: left;
-    width: 60%;
+    width: 50%;
     padding: 1rem;
 }
 .right-text{
     border: 1px solid var(--primary-color);
     text-align: right;
-    width: 60%;
+    width: 50%;
     padding: 1rem;
 }
 
 .center-text{
     border: 1px solid var(--primary-color);
     text-align: center;
-    width: 60%;
+    width: 50%;
     padding: 1rem;
 }
 .small-text{
     border: 1px solid var(--primary-color);
     text-align: left;
    font-size: 10px;
-    width: 60%;
-    padding: 1rem;
+    width: 52%;
+    padding: 0.5rem;
 }
 .nav-bar>ul{
     height: 250vh;
@@ -58,31 +58,44 @@ font-size: larger;
     border: 1px solid var(--primary-color);
     text-align: left;
     color: grey;
-    width: 60%;
+    width: 50%;
     padding: 1rem;
 }
 
 
 .nav-signs{
-   margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
     cursor: pointer;
-   
+  list-style: none;
+  width: 90%;
+ position: relative;
 }
-
- .nav-sign-link{
+ 
+ .nav-sign-link-1{
     text-decoration: none;
     color: var(--secondary-color);
-    font-size: 30px;
-margin-left: 45rem;
-margin-top: -3rem;
-}
-
-#nav-sign-link2{
-    text-decoration: none;
-    color: var(--secondary-color);
-    font-size: 30px;
-margin-right: 48rem;
-
-
+    font-size: 1.5rem;
+    position: relative;
+right: -20%;
+margin-right: auto;
+margin-top: 1rem;
 } 
 
+#nav-sign-link2{
+    position: relative;
+    right:50% ;
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+margin-left: auto;
+margin-top: 1rem;
+} 
+
+
+.iframe-box{
+    width: 90%;
+
+}

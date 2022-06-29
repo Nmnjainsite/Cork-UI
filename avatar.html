@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="avatar.css">
 </head>
 <body>
-  
+   
     <div class="main">
         <h1 class="header">
           <span class="material-icons" id="left-drawer-icon">reorder</span>
@@ -44,8 +44,8 @@
                   <hr>
                   <li class="left-btn-alert"><a href="alert.html">Alert</a></li>
                   <li class="left-btn-avatar"><a href="avatar.html">Avatar</a></li>
-                  <li class="left-btn-badge"><a>Badge</a></li>
-                  <li class="left-btn-button"><a>Button</a></li>
+                  <li class="left-btn-badge"><a href="badge.html">Badge</a></li>
+                  <li class="left-btn-button"><a href="button.html">Button</a></li>
                   <li class="left-btn-card"><a>Card</a></li>
                   <li class="left-btn-grid"><a>Grid</a></li>
                   <li class="left-btn-image"><a>Image</a></li>
@@ -63,37 +63,71 @@
             <div class="card">
               <h2 id="card-header">What?</h2>
               <h2>Introduction</h2>
-              <h2>Heading</h2>
-              <h2>Paragraph</h2>
+              <h2>Image-Heading</h2>
+              <h2>Size</h2>
+              <h2>Grouped Avatar</h2>
       </div>
       </div>
-      
-      <div class="col-2">
+   
+      <div class="col-2" >
         <h1 class="intro">Avatar</h1>
         <P class="main-para">Avatars are images that users can set as their profile picture</P>
         <h2 class="intro">Image Avatar</h2>
         <p class="main-para">Image avatars can be created by passing standard img props src or srcSet to the component.</p>
-        
+  
         <div class="image-box">
-           <li><img  src="avatar.jpg" class="avatar-img" ></img></li>
-           <li><img src="avatar2.jpg" class="avatar-img"></img></li>
+           <li><img  src="avatar.jpg" class="avatar-1"></img></li>
+           <li><img src="avatar2.jpg" class="avatar-2"></img></li>
         </div>
- <div>
-    <img></img>
+        <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=blackboard&wt=none&l=auto&width=708&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520class%253D%2522image-box%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%253Cimg%2520%2520src%253D%2522avatar.jpg%2522%2520class%253D%2522avatar-img%2522%253E%253C%252Fimg%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%253Cimg%2520src%253D%2522avatar2.jpg%2522%2520class%253D%2522avatar-img%2522%253E%253C%252Fimg%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+  
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+     <div class="size-box">
+        <h1>Size</h1>
+        <p>You can change the size of the avatar with the height and width CSS properties.</p>
+     </div>
+     <div class="image-box-size">
+        <li><img  src="avatar.jpg" class="avatar-img-1"></img></li>
+        <li><img src="avatar2.jpg" class="avatar-img-2"></img></li>
+        <li><img  src="avatar3.jpg" class="avatar-img-3"></img></li>
+        <li><img src="avatar4.jpg" class="avatar-img-4"></img></li>
+     </div>
+     <iframe
+     src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=blackboard&wt=none&l=auto&width=708&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2520%2520%253Cdiv%2520class%253D%2522image-box-size%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%253Cimg%2520%2520src%253D%2522avatar.jpg%2522%2520class%253D%2522avatar-img-1%2522%253E%253C%252Fimg%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%253Cimg%2520src%253D%2522avatar2.jpg%2522%2520class%253D%2522avatar-img-2%2522%253E%253C%252Fimg%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%253Cimg%2520%2520src%253D%2522avatar.jpg%2522%2520class%253D%2522avatar-img-3%2522%253E%253C%252Fimg%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%253Cimg%2520src%253D%2522avatar2.jpg%2522%2520class%253D%2522avatar-img-4%2522%253E%253C%252Fimg%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+    
+     sandbox="allow-scripts allow-same-origin">
+   </iframe>
+   <div class="grouped-avatars">
+    <h1>Grouped Avatar</h1>
+    <p>AvatarGroup renders its children as a stack. Use the max prop to limit the number of avatars.</p>
+   </div>
+   <div class="image-grouped-avatars">
+    <li><img  src="avatar.jpg" class="avatar-group-1"></img></li>
+    <li><img src="avatar2.jpg" class="avatar-group-2"></img></li>
+    <li><img  src="avatar3.jpg" class="avatar-group-3"></img></li>
+    <li><img src="avatar4.jpg" class="avatar-group-4"></img></li>
  </div>
-      
- 
+ <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=blackboard&wt=none&l=auto&width=708&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520class%253D%2522image-grouped-avatars%2522%253E%250A%2520%2520%2520%2520%253Cli%253E%253Cimg%2520%2520src%253D%2522avatar.jpg%2522%2520class%253D%2522avatar-group-1%2522%253E%253C%252Fimg%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253E%253Cimg%2520src%253D%2522avatar2.jpg%2522%2520class%253D%2522avatar-group-2%2522%253E%253C%252Fimg%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253E%253Cimg%2520%2520src%253D%2522avatar3.jpg%2522%2520class%253D%2522avatar-group-3%2522%253E%253C%252Fimg%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253E%253Cimg%2520src%253D%2522avatar4.jpg%2522%2520class%253D%2522avatar-group-4%2522%253E%253C%252Fimg%253E%253C%252Fli%253E%250A%2520%253C%252Fdiv%253E"
+  
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
 <div class="nav-signs">
    
    <a href="alert.html" id="nav-sign-link2"><span class="material-symbols-outlined">
     arrow_back_ios
-    </span></a>
+    </span>Alert</a>
+    <a href="badge.html" class="nav-sign-link-1"  >Badge<span class="material-symbols-outlined"
+        >
+        arrow_forward_ios
+       </span></a>
+      
+    
 </div>
 
-<a href="avatar.html" class="nav-sign-link"  ><span class="material-symbols-outlined"
-    >
-    arrow_forward_ios
-   </span> </a>
+
 
 </div>
 </div>

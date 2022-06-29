@@ -1,0 +1,101 @@
+@import "./typography.css";
+@import "./avatar.css";
+.badge-icons{
+    border: 1px solid var(--primary-color);
+width: 80%;
+
+ text-align: center;
+}
+
+.badge-icons>span{
+    font-size: 60px;
+    margin-top: 2rem;
+}
+
+.number {
+  
+    position: relative;
+    color: white;
+    background-color: blueviolet;
+    padding: 7px 12px;
+    width: 7px;
+    border-radius: 5rem;
+    bottom: 75px;
+    left: 20px;
+    border: 1px solid blueviolet;
+    font-size: 15px;
+  
+    margin: auto;
+  }
+
+  .image-grouped-badge{
+    list-style: none;
+  height: 5rem;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-bottom: 5rem;
+    border: 1px solid var(--primary-color);
+  }
+  .avatar-group-1{
+    position: relative;
+    color: white;
+
+    padding: 8px 10px;
+    width: 45px;
+    border-radius: 5rem;
+    top: 10px;
+    left: 10px;
+ 
+  
+
+    margin: auto;
+  }
+
+  .avatar-group-2{
+    position: relative;
+    color: white;
+
+    padding: 8px 10px;
+    width: 45px;
+    border-radius: 5rem;
+    top: 10px;
+    left: -35px;
+ 
+  
+
+    margin: auto;
+  }
+
+  .number-avatar {
+  
+    font-size: 12px;
+    background-color: blueviolet;
+     width: 15px;
+     color: white;
+     padding: 8px 8px; 
+     
+  position: relative;
+  left: -60px;
+  height: 1rem;
+  top: 45px;
+     border-radius: 2rem;
+  }
+
+  .number-avatar-1 {
+ font-size: 12px;
+  background-color: blueviolet;
+   width: 15px;
+   color: white;
+   padding: 8px 8px; 
+   
+position: relative;
+left: -20px;
+height: 1rem;
+   border-radius: 2rem;
+  
+}
+
+.iframe-box{
+    margin-top: -5rem;
+}
