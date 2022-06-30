@@ -272,29 +272,32 @@ cursor: pointer;
         align-items: center;
         justify-content: center;
         border: 1px solid var(--primary-color);
-        padding: 1rem;
+      padding-top:  1rem;
      }
 
      .btn-img{
-       
         position: relative;
-       top: -12rem;
-        background-color: var(--primary-color);
-        color: var(--background-color);
-        padding: 0.5rem;
-        border-radius: 0.4rem;
-        margin: 0.2rem;
-        border: 1px solid var(--primary-color);
-        width: 15%;
-        margin-bottom: rem;
+        border: 1px solid var(--secondary-color);
+        padding: 0.8rem;
+        color: white;
+        background-color: var(--secondary-color);
+        width: 25%;
         cursor: pointer;
+        border-radius: 0.5rem;
+        bottom: 60px;
+        right: 200px;
+        margin: auto;
      }
+
+     .btn-img:hover{
+    background-color: var(--primary-color);
+   }
 
      .img{
         position: relative;
         color: white;
       
-        width: 70%;
+        width: 80%;
         border-radius: 1.5rem;
         top: 10px;
         right: 10px;
@@ -304,5 +307,5 @@ cursor: pointer;
    
      footer{
         position: relative;
-        top: 200rem;
+        top: 180rem;
      }

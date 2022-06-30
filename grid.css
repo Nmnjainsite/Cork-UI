@@ -1,0 +1,71 @@
+@import "./avatar.css";
+
+.grid-container{
+   display: grid;
+   border: 1px solid var(--secondary-color);
+   gap: 20px;
+   justify-content: space-between;
+   grid-template-columns: repeat(4,1fr);
+}
+
+.grid-columns{
+  background-color: aquamarine;
+    color: var(--secondary-color);
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.grid-container-spanning{
+    display: grid;
+    border: 1px solid var(--secondary-color);
+   gap: 10px;
+    justify-content: space-between;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.grid-spanning-column:nth-child(1){
+    padding: 1rem;
+    background-color: teal;
+    color: var(--background-color);
+    border: 1px solid black;
+    border: 1rem;
+    grid-column-start: 1;
+    text-align: center;
+    grid-column-end: 5;
+}
+
+.grid-spanning-column:nth-child(2){
+    padding: 1rem;
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    border: 1px solid black;
+    border: 1rem;
+    grid-row-start: 2;
+    grid-row-end: 35;
+   
+  text-align: center;
+}
+
+.grid-spanning-column:nth-child(3){
+    padding: 1rem;
+    background-color: hotpink;
+    color: var(--background-color);
+    border: 1px solid black;
+    border: 1rem;
+ grid-column-start: 2;
+ grid-column-end: 5;
+ grid-row-start: 2;
+    grid-row-end: 35;
+   
+}  
+
+.grid-spanning-column:nth-child(4){
+    padding: 1rem;
+    background-color: yellow;
+    color: var(--secondary-color);
+    border: 1px solid black;
+    border: 1rem;
+ grid-column-start: 1;
+ grid-column-end: 5;
+ text-align: center;
+}  

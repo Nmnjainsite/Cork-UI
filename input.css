@@ -1,0 +1,44 @@
+@import "./avatar.css";
+
+.input-container{
+    border: 1px solid var(--primary-color);
+    width: 60%;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 0.3rem;
+}
+
+.submit-btn{
+    background-color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    cursor: pointer;
+    border-radius: 0.3rem;
+    color: var(--background-color);
+}
+
+.submit-btn:hover{
+    background-color: var(--primary-color);
+}
+
+.input-field{
+ width: 90%;
+ outline: none;
+border: transparent;
+visibility: none;
+}
+
+legend{
+    font-size: 16px;
+}
+
+.input-2{
+    color: red;
+}
+
+
+
+
+
+
