@@ -37,8 +37,54 @@ legend{
     color: red;
 }
 
+.check-box{
+    margin-top: 2rem;
+    font-size: 20px;
+    width: 90%;
+ padding: 1rem;
+ border: 1px solid var(--primary-color);
+
+}
+
+.radio-box{
+    margin-top: 2rem;
+    font-size: 20px;
+    width: 90%;
+ padding: 1rem;
+ border: 1px solid var(--primary-color);
+
+}
+
+legend{
+    font-size: 1.5rem;
+}
+
+.versions-of-input{
+    margin-top: 2rem;
+  border: 1px solid var(--primary-color);
+width: 80%;
+padding: 1rem;
+}
+
+.outline-input{
+    margin-left: 2rem;
+    outline: none;
+    width: 90%;
+ outline: none;
+border: transparent;
+visibility: none;
+padding: 1rem;
+}
+
+footer{
+    position: relative;
+    top: 70rem;
+}
 
 
 
-
+input[type="checkbox"]:checked {
+    box-shadow: 0 0 0 3px var(--primary-color);
+  
+  }
 

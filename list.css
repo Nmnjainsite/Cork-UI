@@ -1,0 +1,98 @@
+@import "./avatar.css";
+
+.list-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 250px;
+   
+    font-size: 14px;
+  }
+  .title {
+    position: relative;
+    top: -5px;
+    left: 1rem;
+  }
+  .sub {
+    position: relative;
+    top: -11px;
+  }
+  h3 {
+    margin-right: auto;
+    cursor: pointer;
+    padding: 0.4rem;
+    padding-bottom: 0.8rem;
+    width: 95%;
+    margin-top: -0.5rem;
+  }
+
+  #list-icon{
+    font-size: 25px;
+    margin-left: 8px;
+    margin-right: 2rem;
+    cursor: pointer;
+  }
+  
+   
+  #list-icon-2{
+    font-size: 25px;
+    margin-left: 8px;
+    margin-right: 2rem;
+    cursor: pointer;
+  }
+  
+   
+  #list-icon-3{
+    font-size: 25px;
+    margin-left: 8px;
+    margin-right: 2rem;
+    cursor: pointer;
+  }
+
+   
+  #list-icon-4{
+    font-size: 25px;
+    margin-left: 8px;
+    margin-right: 2rem;
+    cursor: pointer;
+  }
+ 
+   h3:hover {
+    background-color: lightgray;
+   
+  } 
+
+  .img-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 400px;
+   margin-top: 2rem;
+    font-size: 14px;
+  }
+  .img-container>h3{  
+    margin-top: -2rem;
+border-radius: 0.5rem;
+  }
+
+  .img-container>h3:hover{  
+background-color: inherit;
+
+  }
+  .img-icon{
+    position: relative;
+    color: white;
+    padding: 8px 10px;
+    width: 65px;
+    border-radius: 5rem;
+    top: 35px;
+    right: 10px;
+    margin: auto;
+  }
+  
+  
+  

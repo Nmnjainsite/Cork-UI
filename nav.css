@@ -1,0 +1,76 @@
+@import "./avatar.css";
+
+.nav-container{
+    border: 1px solid var(--primary-color);
+    border-radius: 0.5rem;
+    padding: 1rem;
+  
+}
+
+.nav-container>a{
+    text-decoration: none;
+    color: var(--primary-color);
+    text-align: left;
+    font-size:16px ;
+}
+
+.nav-container>input{
+    border: 1px solid var(--primary-color);
+    border-radius: 0.3rem;
+   font-size: 20px;
+   padding: 1rem;
+ position: relative;
+ left: 2rem;
+}
+.nav-container>span{
+    font-size: 2rem;
+    position: relative;
+    left: 4rem;
+    margin: 1rem;
+    cursor: pointer;
+}
+.nav-container>span:hover{
+ color: var(--primary-color);
+}
+#favourite-icon:hover{
+color: red;
+}
+#search-bar{
+    font-size: 2rem;
+    position: relative;
+  left: 1rem;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+
+/* .div {
+    display: flex;
+    position: fixed;
+    background-color: var(--primary-color);
+    width: 60%;
+    position: fixed;
+    bottom:2rem;
+    padding:1rem;
+    border-radius:0.5rem;
+    margin-top:5rem
+  }
+  
+  .txt-file {
+    color: white;
+    font-size: 24;
+    margin-right: 25px;
+  text-align: center;
+  
+  }
+  
+  .retry {
+   color:blueviolet;
+   margin-left: auto;
+ font-size: 24px;
+  align-items: center;
+   cursor: pointer;
+   text-decoration: none;
+  } */
+  
+ 

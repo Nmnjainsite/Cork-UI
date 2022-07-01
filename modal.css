@@ -1,0 +1,149 @@
+@import"./avatar.css";
+
+.modal-container{
+    width: 50%;
+    text-align: center;
+    padding: 1rem;
+    font-size: 24px;
+}
+
+#open-btn{
+    background-color: var(--secondary-color);
+    color: var(--background-color);
+    border: 1px solid var(--background-color);
+padding: 0.5rem;
+
+border-radius: 0.3rem;
+width: 6rem;
+cursor: pointer;
+}
+#open-btn:hover{
+  color: var(--primary-color);
+}
+
+.modal-content{
+    width: 95%;
+    background-color: white;
+    box-shadow: 0 1rem 1rem rgba(0,0,0,0.12);
+padding: 0.5rem;
+margin-top: 2rem;
+visibility: hidden;
+border: 1px solid var(--primary-color);
+border-radius: 0.5rem;
+color: teal;
+}
+
+.yes-btn{
+    background-color: var(--secondary-color);
+    color: var(--background-color);
+    border: 1px solid var(--background-color);
+padding: 0.5rem;
+border-radius: 0.3rem;
+width: 6rem;
+cursor: pointer;
+}
+
+.yes-btn:hover{
+    color: var(--primary-color);
+}
+
+.no-btn{
+    background-color: var(--secondary-color);
+    color: var(--background-color);
+    border: 1px solid var(--background-color);
+padding: 0.5rem;
+border-radius: 0.3rem;
+width: 6rem;
+cursor: pointer;
+}
+
+.no-btn:hover:hover{
+    color: var(--primary-color);
+}
+
+.modal-container{
+    width: 50%;
+    text-align: center;
+    padding: 1rem;
+    font-size: 24px;
+}
+
+.show-msg-btn{
+    background-color: var(--secondary-color);
+    color: var(--background-color);
+    border: 1px solid var(--background-color);
+padding: 0.5rem;
+
+border-radius: 0.3rem;
+width: 6rem;
+cursor: pointer;
+}
+
+.msg-box{
+    width: 95%;
+    background-color: white;
+    box-shadow: 0 1rem 1rem rgba(0,0,0,0.12);
+padding: 0.5rem;
+margin-top: 2rem;
+visibility: hidden;
+border: 1px solid var(--primary-color);
+border-radius: 0.5rem;
+color: teal;
+}
+
+.game-box{
+    width: 95%;
+    background-color: white;
+    box-shadow: 0 1rem 1rem rgba(0,0,0,0.12);
+padding: 0.5rem;
+margin-top: 2rem;
+visibility: hidden;
+border: 1px solid var(--primary-color);
+border-radius: 0.5rem;
+color: teal;
+}
+
+#play-btn{
+    background-color: var(--secondary-color);
+    color: var(--background-color);
+    border: 1px solid var(--background-color);
+padding: 0.5rem;
+border-radius: 0.3rem;
+width: 6rem;
+cursor: pointer;
+}
+
+#not-btn{
+    background-color: var(--secondary-color);
+    color: var(--background-color);
+    border: 1px solid var(--background-color);
+padding: 0.5rem;
+border-radius: 0.3rem;
+width: 6rem;
+cursor: pointer;
+}
+
+#start-btn{
+    background-color: var(--secondary-color);
+    color: var(--background-color);
+    border: 1px solid var(--background-color);
+padding: 0.5rem;
+border-radius: 0.3rem;
+width: 6rem;
+cursor: pointer;
+}
+
+#end-btn{
+    background-color: var(--secondary-color);
+    color: var(--background-color);
+    border: 1px solid var(--background-color);
+padding: 0.5rem;
+border-radius: 0.3rem;
+width: 6rem;
+cursor: pointer;
+}
+
+footer{
+    position: relative;
+    top: 15rem;
+}
