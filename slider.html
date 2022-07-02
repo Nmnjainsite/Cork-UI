@@ -63,9 +63,8 @@
             <div class="card">
               <h2 id="card-header">What?</h2>
               <h2>Introduction</h2>
-              <h2></h2>
-              <h2></h2>
-              <h2></h2>
+              <h2>Volume Slider</h2>
+              <h2>Carousel</h2>
       </div>
       </div>
    
@@ -75,8 +74,55 @@
         <h2 class="intro">Volume Slider</h2>
         <p class="main-para"> </p>
 
+        <div class="slider-container">
+            <div class="slider">
+            <input type="range" minlength="0" maxlength="100" value="50">
+            <progress min="50" max="100" value="50"></progress></input>
+        </div>
+            <div class="slider-value">50</div>
+        </div>
+
+        <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=blackboard&wt=sharp&l=auto&width=700&ds=true&dsyoff=73px&dsblur=35px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522slider-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522slider%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522range%2522%2520minlength%253D%25220%2522%2520maxlength%253D%2522100%2522%2520value%253D%252250%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cprogress%2520min%253D%252250%2522%2520max%253D%2522100%2522%2520value%253D%252250%2522%253E%253C%252Fprogress%253E%253C%252Finput%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522slider-value%2522%253E50%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+<div class="intro">
+    <h2>Carousel</h2>
+    <p class="main-para">A slideshow is used to cycle through elements:</p>
+</div>
+
+<section aria-label="New Photos">
+    <div class="carousel" data-carousel>
+<button class="carousel-button prev" data-carousel-button="prev">Prev</button>
+<button class="carousel-button next" data-carousel-button="next">Next</button>
+    <ul data-slides>
+        <li class="slide" data-active>
+            <img src="https://assets.indiadesire.com/images/myntra%20diwali%20sale%20.jpg" alt="Hero #1">
+        </li>
+        <li class="slide">
+            <img src="https://i.ytimg.com/vi/wvSP37qLQW4/maxresdefault.jpg" alt="Hero #2">
+        </li>
+        <li class="slide">
+            <img src="slider3.jpg" alt="Hero #3">
+        </li>
+        <li class="slide">
+            <img src="slider2.jpg" alt="Hero #4">
+        </li>
+        <li class="slide">
+            <img src="https://assets.indiadesire.com/images/myntra%20sale.jpg
+            " alt="Hero #5">
+        </li>
+    </ul>
+</div>
+</section>
+
+<iframe
+  src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=blackboard&wt=sharp&l=auto&width=700&ds=true&dsyoff=73px&dsblur=35px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Csection%2520aria-label%253D%2522New%2520Photos%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522carousel%2522%2520data-carousel%253E%250A%253Cbutton%2520class%253D%2522carousel-button%2520prev%2522%2520data-carousel-button%253D%2522prev%2522%253EPrev%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522carousel-button%2520next%2522%2520data-carousel-button%253D%2522next%2522%253ENext%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cul%2520data-slides%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522slide%2522%2520data-active%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fassets.indiadesire.com%252Fimages%252Fmyntra%252520diwali%252520sale%252520.jpg%2522%2520alt%253D%2522Hero%2520%25231%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522slide%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fi.ytimg.com%252Fvi%252FwvSP37qLQW4%252Fmaxresdefault.jpg%2522%2520alt%253D%2522Hero%2520%25232%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522slide%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522slider3.jpg%2522%2520alt%253D%2522Hero%2520%25233%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522slide%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522slider2.jpg%2522%2520alt%253D%2522Hero%2520%25234%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522slide%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fassets.indiadesire.com%252Fimages%252Fmyntra%252520sale.jpg%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2522%2520alt%253D%2522Hero%2520%25235%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%253C%252Ful%253E%250A%253C%252Fdiv%253E%250A%253C%252Fsection%253E"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
         
-  
+        
 <div class="nav-signs">
    
    <a href="rating.html" id="nav-sign-link2"><span class="material-symbols-outlined">
@@ -100,5 +146,6 @@
     <li> <a href="https://www.linkedin.com/in/naman-jain-97382b231/">linkedin</a></li>
      <li><a href="https://github.com/Nmnjainsite">Github</a></li>
    </footer>
+   <script src="slider.js"></script>
 </body>
 </html>

@@ -1,0 +1,320 @@
+@import "./avatar.css";
+
+*,*::after,*::before{
+  box-sizing: border-box;  
+}
+
+body{
+    margin: 0;
+}
+
+.snackbar-container{
+    display: flex;
+    border: 1px solid var(--primary-color);
+border-radius: 0.5rem;
+    padding: 1rem;
+    position: relative;
+    justify-content: space-around;
+}
+
+.mail-btn{
+   color: var(--background-color);
+   background-color: transparent;
+   border: 0px solid var(--primary-color);
+   background-color: transparent;
+ background-color: var(--primary-color);
+ padding: 0.5rem;
+ border-radius: 0.2rem;
+ font-size: 16px;
+ cursor: pointer;
+ width: 25%;
+text-align: center;
+
+
+}
+
+.mail-btn:hover{
+    background-color: black;
+    
+}
+
+.mail-btn:focus{
+    background-color: black;
+  
+}
+
+.add-btn{
+    color: var(--background-color);
+   background-color: transparent;
+   border: 0px solid var(--primary-color);
+   background-color: transparent;
+ background-color: var(--primary-color);
+ padding: 0.5rem;
+ border-radius: 0.2rem;
+ font-size: 16px;
+ cursor: pointer;
+ width: 25%;
+text-align: center;
+margin-left: 1rem;
+}
+
+.add-btn:hover{
+    background-color: black;
+    
+}
+
+.add-btn:focus{
+    background-color: black;
+  
+}
+
+.toast-btn{
+    color: var(--background-color);
+    background-color: transparent;
+    border: 0px solid var(--primary-color);
+    background-color: transparent;
+  background-color: var(--primary-color);
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  font-size: 16px;
+  cursor: pointer;
+  width: 25%;
+ text-align: center;
+
+}
+
+.toast-btn:hover{
+    background-color: black;
+    
+}
+
+.toast-btn:focus{
+    background-color: black;
+  
+}
+
+.mail-bar{
+font-size: 24px;
+background: none;
+background-color: teal;
+color: var(--background-color);
+padding: 0.5rem;
+border-radius: 0.5rem;
+width: 25%;
+text-align: center;
+visibility: hidden;
+}
+
+.cart-text{
+    font-size: 24px;
+    background: none;
+    background-color: teal;
+    color: var(--background-color);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    width: 25%;
+    text-align: center;
+    visibility: hidden;
+}
+
+.text-box{
+    display: flex;
+    border: 0px solid var(--primary-color);
+border-radius: 0.5rem;
+    padding: 1rem;
+    position: relative;
+    justify-content: space-around; 
+    margin-top: 2rem;
+}
+
+
+.toast-box{
+    display: flex;
+    background-color: black;
+    color: white;
+    margin-top: 2rem;
+    padding: 0.3rem;
+    align-items: center;
+    font-size: 1rem;
+    border-radius: 0.4rem;
+    width: 400px;
+    visibility: hidden;
+    position: fixed;
+    top: 30rem;
+    right: 1rem;
+}
+
+.retry{
+    margin-left: auto;
+    color: blueviolet;
+    margin-right: 1rem;
+}
+
+#close-btn{
+cursor: pointer;
+padding: 0.1rem;
+border-radius: 1.2rem;
+background-color: black;
+color: white;
+}
+
+#close-btn:hover{
+ color: blueviolet;
+}
+
+.position-btn{
+    color: var(--background-color);
+    background-color: transparent;
+    border: 0px solid var(--primary-color);
+    background-color: transparent;
+  background-color: var(--primary-color);
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  font-size: 16px;
+  cursor: pointer;
+  width: 15%;
+ text-align: center;
+}
+
+.position-btn:hover{
+    background-color: black;
+}
+.position-btn:focus{
+    background-color: black;
+}
+
+.top-right-btn{
+    color: var(--background-color);
+    background-color: transparent;
+    border: 0px solid var(--primary-color);
+    background-color: transparent;
+  background-color: var(--primary-color);
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  font-size: 16px;
+  cursor: pointer;
+  width: 15%;
+ text-align: center;
+}
+.top-right-btn:hover{
+    background-color: black;
+}
+
+.top-right-btn:focus{
+    background-color: black;
+}
+
+
+.bottom-right-btn{
+    color: var(--background-color);
+    background-color: transparent;
+    border: 0px solid var(--primary-color);
+    background-color: transparent;
+  background-color: var(--primary-color);
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  font-size: 16px;
+  cursor: pointer;
+  width: 15%;
+ text-align: center;
+}
+.bottom-right-btn:hover{
+    background-color: black;
+}
+
+.bottom-right-btn:focus{
+    background-color: black;
+}
+.bottom-left-btn{
+    color: var(--background-color);
+    background-color: transparent;
+    border: 0px solid var(--primary-color);
+    background-color: transparent;
+  background-color: var(--primary-color);
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  font-size: 16px;
+  cursor: pointer;
+  width: 15%;
+ text-align: center;
+}
+
+.bottom-left-btn:hover{
+    background-color: black;
+}
+
+.bottom-left-btn:focus{
+    background-color: black;
+}
+.position-snackbar{
+    display: flex;
+    background-color: var(--secondary-color);
+    color: white;
+    margin-top: 2rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 0.4rem;
+    width: 200px;
+    position: fixed;
+    top: 0rem;
+    left: 1rem;
+   justify-content: center;
+   align-items: center;
+   visibility: hidden;
+}
+
+.position-snackbar-2{
+    display: flex;
+    background-color: var(--secondary-color);
+    color: white;
+    margin-top: 2rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 0.4rem;
+    width: 200px;
+    position: fixed;
+    top: 0rem;
+    right: 1rem;
+   justify-content: center;
+   align-items: center;
+   visibility: hidden;
+}
+.position-snackbar-3{
+    display: flex;
+    background-color: var(--secondary-color);
+    color: white;
+    margin-top: 2rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 0.4rem;
+    width: 200px;
+    position: fixed;
+   bottom: 1rem;
+    right: 1rem;
+   justify-content: center;
+   align-items: center;
+   visibility: hidden;
+   z-index: 2;
+}
+
+.position-snackbar-4{
+    display: flex;
+    background-color: var(--secondary-color);
+    color: white;
+    margin-top: 2rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 0.4rem;
+    width: 200px;
+    position: fixed;
+   bottom: 1rem;
+    left: 1rem;
+   justify-content: center;
+   align-items: center;
+   visibility: hidden;
+   z-index: 2;
+}
+footer{
+    position: relative;
+    top: 5rem;
+}

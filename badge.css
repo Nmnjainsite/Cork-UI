@@ -18,7 +18,7 @@ width: 80%;
     color: white;
     background-color: blueviolet;
     padding: 7px 12px;
-    width: 7px;
+    width: 35px;
     border-radius: 5rem;
     bottom: 75px;
     left: 20px;
@@ -30,7 +30,7 @@ width: 80%;
 
   .image-grouped-badge{
     list-style: none;
-  height: 5rem;
+  height: 6rem;
     display: flex;
     flex-direction: row;
     width: 80%;
@@ -42,7 +42,7 @@ width: 80%;
     color: white;
 
     padding: 8px 10px;
-    width: 45px;
+    width: 5rem;
     border-radius: 5rem;
     top: 10px;
     left: 10px;
@@ -57,10 +57,10 @@ width: 80%;
     color: white;
 
     padding: 8px 10px;
-    width: 45px;
+    width: 5rem;
     border-radius: 5rem;
     top: 10px;
-    left: -35px;
+    left: -25px;
  
   
 
@@ -68,31 +68,46 @@ width: 80%;
   }
 
   .number-avatar {
-  
-    font-size: 12px;
+    /* position: relative;
+    color: white;
     background-color: blueviolet;
-     width: 15px;
-     color: white;
-     padding: 8px 8px; 
+    padding: 7px 9px;
+    width: 35px;
+    border-radius: 5rem;
+    top: 2rem;
+    right: 7rem;
+    border: 1px solid blueviolet;
+    font-size: 15px;
+  
+    margin: auto; */
+
+    font-size: 16px;
+    background-color:blueviolet;  
+    color: white;
+     padding: 8px 9px; 
      
   position: relative;
-  left: -60px;
-  height: 1rem;
-  top: 45px;
-     border-radius: 2rem;
-  }
+  top: 3.5rem;
+  left: -3rem;
+ height: 2.2rem;
+     border-radius: 5rem;
+     width: 35px;
+   
+    
+    }
 
   .number-avatar-1 {
- font-size: 12px;
-  background-color: blueviolet;
-   width: 15px;
-   color: white;
-   padding: 8px 8px; 
+ font-size: 16px;
+  background-color:blueviolet;  
+  color: white;
+   padding: 8px 9px; 
    
 position: relative;
-left: -20px;
-height: 1rem;
-   border-radius: 2rem;
+left: -25px;
+height: 2.2rem;
+   border-radius: 5rem;
+   width: 35px;
+ 
   
 }
 
