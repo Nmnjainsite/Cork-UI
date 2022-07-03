@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&family=Macondo&family=Oleo+Script+Swash+Caps&family=Signika+Negative:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&family=Macondo&family=Oleo+Script+Swash+Caps&family=Patua+One&family=Permanent+Marker&family=Signika+Negative:wght@500;600&display=swap');
+
+
 *,*::after,*::before{
     box-sizing: border-box;
 }
@@ -6,15 +8,17 @@
     --primary-color:skyblue;
     --background-color:#f5f5f4;
     --secondary-color:black;
+   
 }
 body{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     color:var(--secondary-color);
-    font-family: 'Signika Negative', sans-serif;
+  
+   
 }
-
+/* ------------------------------Header css------------------------------- */
 .header{
  position: relative;
  top: -3rem;
@@ -31,6 +35,8 @@ body{
     font-weight: bolder;
 
 }
+
+/*------------------------------------- Navigation css------------------------------------ */
 .side-nav{
     display: flex;
     flex-wrap: wrap;
@@ -135,6 +141,8 @@ padding: 5px;
     color: var(--secondary-color);
 }
 
+/*----------------------------------Main Content-------------------------------------- */
+
 .description{
     font-size: 28px;
  width: 95%;
@@ -200,7 +208,7 @@ left: 0.3rem;
    text-decoration: none;
    color: var(--background-color);
 }
-
+/*---------------------footer css------------------------- */
 footer{
   
    margin-top: 11rem;
@@ -240,7 +248,7 @@ footer>li{
 } 
 
 
-
+/*---------------------------- For Mobiles----------------------------------- */
 
 @media only screen and (max-width: 1000px) {
     body{
@@ -260,7 +268,7 @@ footer>li{
   
 }
 .input{
-    /* margin-left: auto; */
+ 
     position: relative;
     top: 2rem;
    right: 75px;
@@ -271,7 +279,7 @@ footer>li{
   
 }
 .search-btn{
-    /* margin-left: auto; */
+    
     color: white;
     position: relative;
     top: -0.1rem;
@@ -294,8 +302,6 @@ text-align: center;
   cursor: pointer;
 }
 .docs{
-    /* margin-left: auto; */
-    
     position: relative;
 text-align: center;
     top: 0.6rem; 

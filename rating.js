@@ -1,3 +1,4 @@
+
 let star = document.querySelectorAll('input');
 let showValue = document.querySelector('#rating-value');
 

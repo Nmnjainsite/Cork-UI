@@ -1,6 +1,7 @@
 @import "./typography.css";
 @import "./avatar.css";
 
+
   .card-img{
     position: relative;
     color: white;
@@ -14,13 +15,13 @@
     left: 0px;
     bottom: 0px;
     margin: auto;
-    
+ 
   }
 
   .card-container{
     background-color: var(--background-color);
     box-shadow: 0 1rem 1rem rgba(0,0,0,0.12), 0 1rem 1rem rgba(0,0,0,0.24);
-
+  
 width: 280px;
 
   }
@@ -69,7 +70,7 @@ padding: 1rem;
   }
   .horizontal-card{
     border: 1px solid var(--primary-color);
-width: 200px;
+width: 30%;
 padding: 1rem;
 
 
@@ -77,29 +78,24 @@ height:11rem
   }
 
   .horizontal-img{
-    position: relative;
-  
+    position:relative;
     padding: 8px 10px;
-    width: 50%;
-   
+    width: 70%;
     border-radius: 5rem;
-    top: 1px;
+    top: -22px;
     left: -1.5rem;
     margin: auto;
-   
   }
 
   .price{
     position: relative;
- 
     padding: 8px 10px;
     width: 30%;
     border-radius: 5rem;
-  top: -6.5rem;
+  top: -10.5rem;
   font-size: 14px;
-    left: 5px;
+    left: 15px;
     margin: auto;
-    /* overflow-y: hidden; */
   }
 
   .horizontal-text{
@@ -107,16 +103,17 @@ height:11rem
     padding: 8px 10px;
    width: 50%;
     border-radius: 5rem;
-  top: -6rem;
-  font-size: 10px;
+  top: -10rem;
+  font-size: 13px;
   font-weight: bold;
-    right: -25px;
+    left: 35px;
     margin: auto;
-    /* overflow-y: hidden; */
   }
 
-  p>span{
-text-decoration: line-through;
+  .discount{
+position: relative;
+left: 4px;
+font-size: 16px;
   }
 
   p>small{
@@ -129,10 +126,10 @@ text-decoration: line-through;
     position: relative;
     margin: 0.5rem;
    border-radius: 0.3rem;
-    bottom: 7rem;
+    bottom: 9.9rem;
     background-color: var(--primary-color);
-    font-size:0.5rem ;
-    left: -1.3rem;
+    font-size:0.8rem ;
+    left: -0.5rem;
   } 
 
   .wishlist{
@@ -142,17 +139,17 @@ text-decoration: line-through;
     position: relative;
     margin: 0.5rem;
    border-radius: 0.3rem;
-    bottom: 6.8rem;
+    bottom: 9.5rem;
     color: black;
-    font-size:0.8rem ;
-    right: 2rem;
+    font-size:1.3rem ;
+    right: -1.5rem;
   }
 
 #close-tag{
     position: relative;
-  top: -4rem;
+  top: -8rem;
   font-size: 10px;
-    right: -65px;
+    right: -45px;
     margin: auto;
     font-size: 25px;
     cursor: pointer;
@@ -201,12 +198,12 @@ text-decoration: line-through;
 
 
 .product-container{
-    width: 200px;
+    width: 30%;
     background-color: white;
     box-shadow: 0 1rem 1rem rgba(0,0,0,0.12);
 padding: 0.5rem;
 padding-left: 2rem;
-height: 29rem;
+height: 25rem;
 border: 1px solid var(--primary-color);
 border-radius: 0.5rem;
 
@@ -214,15 +211,15 @@ border-radius: 0.5rem;
 
 .product-img{
     position: relative;
-  
     padding: 8px 10px;
-    width: 185px;
-   
-  
+    width: 99%;
     top: -7px;
-    left: -1.5rem;
+    
     margin: auto;
     margin-bottom: 1rem;
+}
+.product-text{
+  margin-top: -1rem;
 }
 
 .product-img>p{
@@ -252,31 +249,30 @@ justify-content: center;
     padding: 0.5rem;
     padding-left: 2rem;
     margin-top: 2rem;
-    height: 35rem;
+    height: 30rem;
     border: 1px solid var(--primary-color);
     border-radius: 0.5rem;
     }
 
     .badge-container>h3{
-        background-color: var(--secondary-color);
-        color: var(--background-color);
-        width: 15%;
-        padding: 0.1rem;
-        position: relative;
-        top: -1rem;
-        left: -1rem;
+      position: relative;
+      color: teal;
+      right: 1.8rem;
+      top: -1rem;
+      
     }
 
    .badge-container>img{
     position: relative;
-    top: -2rem;
-    width: 250px;
+    top: -3rem;
+    right: 1rem;
+    width: 255px;
    }
 
    .badge-container>p{
-    margin-top: -0.5rem;
+    margin-top: -0.3rem;
    }
-
+    
     .mrp{
         color: grey;
     }

@@ -1,3 +1,4 @@
+// ------------first snackbar js-----------//
 const mailBtn = document.querySelector(".mail-btn");
 const mailBar = document.querySelectorAll(".mail-bar") ;
 
@@ -24,6 +25,7 @@ function addToCart (){
     ,1000)
 }
 
+//-------toast bar------------------
 
 const toastBtn = document.querySelector(".toast-btn");
 toastBtn.addEventListener("click" ,function hideToast(){
@@ -41,6 +43,7 @@ closeBtn.addEventListener("click",function hideText(){
     document.querySelector(".toast-box").style.visibility = "hidden",5000)
 } )
 
+// -----------positioned snackbars js-----------------
 
 const positionBtn = document.querySelector(".position-btn");
 

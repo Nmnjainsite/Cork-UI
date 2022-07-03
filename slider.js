@@ -1,3 +1,4 @@
+// ----------volume bar js-------------------------
 window.onload = function(){
     slider = document.querySelector(".slider input");
     slider.oninput = function(){
@@ -8,7 +9,7 @@ window.onload = function(){
     }
 }
 
-
+// -----------carousel js------------------------------
 
 const buttons = document.querySelectorAll("[data-carousel-button]")
 

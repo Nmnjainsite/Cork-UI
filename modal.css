@@ -1,5 +1,7 @@
 @import"./avatar.css";
 
+/* ------------modal container css-------------------- */
+
 .modal-container{
     width: 50%;
     text-align: center;
@@ -59,13 +61,6 @@ cursor: pointer;
 
 .no-btn:hover:hover{
     color: var(--primary-color);
-}
-
-.modal-container{
-    width: 50%;
-    text-align: center;
-    padding: 1rem;
-    font-size: 24px;
 }
 
 .show-msg-btn{

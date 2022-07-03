@@ -1,6 +1,6 @@
 @import "./avatar.css";
 
-
+/* ------------main content css-------------------- */
 .nav-container{
     border: 1px solid var(--primary-color);
     border-radius: 0.5rem;
@@ -23,19 +23,23 @@
  position: relative;
  left: 2rem;
 }
+
 .nav-container>span{
     font-size: 2rem;
     position: relative;
     left: 4rem;
     margin: 1rem;
     cursor: pointer;
-}
+} 
+
 .nav-container>span:hover{
  color: var(--primary-color);
 }
+
 #favourite-icon:hover{
 color: red;
 }
+
 #search-bar{
     font-size: 2rem;
     position: relative;

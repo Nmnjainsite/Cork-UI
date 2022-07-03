@@ -1,13 +1,13 @@
 @import "./avatar.css";
 
 *,*::after,*::before{
-  box-sizing: border-box;  
+    box-sizing: border-box;
 }
 
 body{
     margin: 0;
 }
-
+/*---------------------- first snackbar button css------------------- */
 .snackbar-container{
     display: flex;
     border: 1px solid var(--primary-color);
@@ -67,6 +67,7 @@ margin-left: 1rem;
     background-color: black;
   
 }
+/*---------------------toast-button ------------------ */
 
 .toast-btn{
     color: var(--background-color);
@@ -92,7 +93,7 @@ margin-left: 1rem;
     background-color: black;
   
 }
-
+/*------------------first snackbar mail bar------------ */
 .mail-bar{
 font-size: 24px;
 background: none;
@@ -127,7 +128,7 @@ border-radius: 0.5rem;
     margin-top: 2rem;
 }
 
-
+/*----------- toast box second snackbar-------------------- */
 .toast-box{
     display: flex;
     background-color: black;
@@ -161,7 +162,7 @@ color: white;
 #close-btn:hover{
  color: blueviolet;
 }
-
+/* ----------positioned snackbars-------------------- */
 .position-btn{
     color: var(--background-color);
     background-color: transparent;
@@ -314,6 +315,8 @@ color: white;
    visibility: hidden;
    z-index: 2;
 }
+
+/* -------------------footer-------------- */
 footer{
     position: relative;
     top: 7rem;

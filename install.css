@@ -1,9 +1,13 @@
 @import "./style.css";
-
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&family=Libre+Franklin:wght@100&family=Macondo&family=Oleo+Script+Swash+Caps&family=Patua+One&family=Permanent+Marker&family=Signika+Negative:wght@500;600&display=swap');
+/* -----------first letter of header take the primary color------- */
 h1>a{
     text-decoration: none;
     color: var(--secondary-color);
 }
+
+
+/* ----------------left bar css-------------------- */
 .nav-child{
    float: right;
   display: grid;
@@ -31,8 +35,10 @@ height: 200vh;
 }
 
 .nav-bar li{
-    margin-bottom: 1.5rem;
-    padding: 1rem;
+    margin-left: 0.5rem;
+    margin-bottom: 0.8rem;
+    align-items: flex-start;
+    padding: 0.5rem;
    font-size: 1.3rem;
    color: var(--secondary-color);
    cursor: pointer;
@@ -42,6 +48,8 @@ li>a{
     text-decoration: none;
     color: var(--secondary-color);
 }
+
+/* --------------------right bar css----------------------- */
 
 .card{
    background-color: skyblue;
@@ -61,13 +69,15 @@ li>a{
   
     }
 
+    /* ------------main content css------------------ */
+
 .col-2{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
  flex-wrap: wrap;
  position: absolute;
- top: 12rem;
+ top: 11rem;
  left: 15rem;
  width: 60%;
  text-align: left;
@@ -79,8 +89,10 @@ color: black;
 }
 .main-para{
 font-size:20px;
-width: 80%;
+width: 90%;
+margin-top: 0.1rem;
 }
+/* ---------------header icon---------------------- */
 #left-drawer-icon{
 position: relative;
 top: 0.3rem;
@@ -92,20 +104,22 @@ iframe{
     width: 80%;
     margin-top: 2rem;
 }
+
+/* ---------------for mobiles-------------------- */
 @media only screen and (max-width: 600px) {
+
     body{
         display: grid;
-
     }
 
     .aside{
-      
         visibility: hidden;
     }
+
     .nav-bar{
-        visibility: hidden;
-       
+        visibility: hidden; 
     }
+
     .col-2{
         display: flex;
         flex-wrap: wrap;
@@ -115,12 +129,9 @@ left: 10px;
    font-size: 10px;
     }
 }
+
 @media only screen and (max-width: 1000px) {
-    body{
-        display: grid;
-
-    }
-
+    
     .aside{
       
     visibility: hidden;
@@ -145,6 +156,8 @@ left: 10px;
         } 
 
 }
+
+/* ----------------footer------------------ */
  footer{
     
     font-size: 20px;
@@ -172,7 +185,7 @@ footer>li{
    
     list-style: none;
 } 
-
+/* --------another page nav css---------------- */
 .nav-signs{
   
     cursor: pointer;
@@ -187,6 +200,7 @@ footer>li{
    
 }
 
+/* ---------------side bars docs and versions css---------------- */
 .side-nav{
     display: flex;
     flex-wrap: wrap;
@@ -229,6 +243,8 @@ footer>li{
      color: var(--secondary-color);
    ;
    }
+
+   /* -------------------------------media query----------------------------------------- */
 
    @media only screen and (max-width: 1200px) {
     .header{

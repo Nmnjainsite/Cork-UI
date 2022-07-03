@@ -1,3 +1,4 @@
+// -----------modal one-------------------
 const openBtn = document.querySelector("#open-btn");
 const yesBtn = document.querySelector(".yes-btn");
 const noBtn = document.querySelector(".no-btn");
@@ -20,6 +21,7 @@ function clickHandler3 (){
     document.querySelector(".modal-content").style.visibility = "hidden";
 }
 
+// -----------------modal two(nested modal)------------------
 
 const showMsgBtn = document.querySelector(".show-msg-btn");
 const playBtn = document.querySelector("#play-btn");

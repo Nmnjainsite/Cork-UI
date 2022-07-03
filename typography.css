@@ -1,6 +1,7 @@
 @import"./style.css";
 @import"./install.css";
 @import"./avatar.css";
+/* ----------------------Right Bar Card-------------------------- */
 .aside{
     width: 14%;
     font-size: medium;
@@ -8,7 +9,7 @@
 .card{
     font-size: 16px;
 }
-
+/*----------------------------- Main Content------------------ */
 .heading-box{
     border: 1px solid var(--primary-color);
     text-align: center;
@@ -51,6 +52,8 @@ font-size: larger;
     width: 50%;
     padding: 0.5rem;
 }
+
+/* ---------------------------Left Side Nav---------------------- */
 .nav-bar>ul{
     height: 250vh;
 }
@@ -94,7 +97,7 @@ margin-left: auto;
 margin-top: 1rem;
 } 
 
-
+/*------------------------------Iframe------------------------------ */
 .iframe-box{
     width: 90%;
 

@@ -1,5 +1,7 @@
 @import "./avatar.css";
 
+/* -----------main content fieldset input--------------- */
+
 .input-container{
     border: 1px solid var(--primary-color);
     width: 60%;
@@ -36,7 +38,7 @@ legend{
 .input-2{
     color: red;
 }
-
+/* ------------check box & radio box------------- */
 .check-box{
     margin-top: 2rem;
     font-size: 20px;
@@ -58,13 +60,17 @@ legend{
 legend{
     font-size: 1.5rem;
 }
-
+/* ------------------------file & date input----------------------- */
 .versions-of-input{
     margin-top: 2rem;
   border: 1px solid var(--primary-color);
 width: 80%;
 padding: 1rem;
 }
+
+input[type="checkbox"]:checked {
+    box-shadow: 0 0 0 3px var(--primary-color);
+  }
 
 .outline-input{
     margin-left: 2rem;
@@ -83,8 +89,5 @@ footer{
 
 
 
-input[type="checkbox"]:checked {
-    box-shadow: 0 0 0 3px var(--primary-color);
-  
-  }
+
 
