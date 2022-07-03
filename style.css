@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&family=Macondo&family=Oleo+Script+Swash+Caps&family=Signika+Negative:wght@500;600&display=swap');
 *,*::after,*::before{
     box-sizing: border-box;
 }
@@ -11,7 +12,7 @@ body{
     flex-direction: column;
     flex-wrap: wrap;
     color:var(--secondary-color);
-
+    font-family: 'Signika Negative', sans-serif;
 }
 
 .header{
@@ -67,6 +68,9 @@ visibility: hidden;
     padding: 9px ;
     cursor: pointer;
 }
+.search-btn:hover{
+    color: var(--secondary-color);
+}
 .version{
     margin-left: auto;
     
@@ -77,6 +81,9 @@ visibility: hidden;
     font-size: 18px;
   cursor: pointer;
 }
+.version:hover{
+    color: blue;
+}
 .docs{
     margin-left: auto;
     
@@ -86,6 +93,9 @@ visibility: hidden;
     right: 160px;
     font-size: 18px;
   cursor: pointer;
+}
+.docs:hover{
+  color: blue;
 }
 .git{
     margin-left: auto;
@@ -102,6 +112,10 @@ text-decoration: none;
     font-size: 18px;
   cursor: pointer;
 }
+
+.git:hover{
+    color: var(--secondary-color);
+}
 #night{
     margin-left: auto;
     color: var(--primary-color);
@@ -115,6 +129,10 @@ padding: 5px;
     right: 30px;
     font-size: 30px;
   cursor: pointer;
+}
+
+#night:hover{
+    color: var(--secondary-color);
 }
 
 .description{
@@ -184,7 +202,8 @@ left: 0.3rem;
 }
 
 footer{
-    margin-top: 11rem;
+  
+   margin-top: 11rem;
     font-size: 20px;
     background-color: var(--primary-color); 
     font-weight: bold;

@@ -1,5 +1,6 @@
 @import "./avatar.css";
 
+
 .nav-container{
     border: 1px solid var(--primary-color);
     border-radius: 0.5rem;
@@ -42,6 +43,8 @@ color: red;
     margin: 1rem;
     cursor: pointer;
 }
+
+
 
 
 
