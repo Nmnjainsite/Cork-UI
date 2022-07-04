@@ -217,7 +217,7 @@ footer{
     height: 11rem;
 margin-left: -3rem;
 margin-right: -3rem;
-margin-top: 8.5rem;
+margin-top: 9rem;
 }
 
 .footer-img{
@@ -259,24 +259,19 @@ footer>li{
 @media only screen and (max-width: 1000px) {
     body{
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        color:var(--primary-color);
+       flex-direction: column;
       
     }
  
 .header{
   position: relative;
-  top: -1rem;
-    font-size: 24px;
-    padding: 3px;
-    margin: 2px;
-  
+  font-size: 2rem;
+  right: 30%;
 }
 .input{
  
     position: relative;
-    top: 2rem;
+    top: 0.1rem;
    right: 75px;
    border: 1px solid blue;
    border-radius: 4px;
@@ -288,7 +283,7 @@ footer>li{
     
     color: white;
     position: relative;
-    top: -0.1rem;
+    top: -1.8rem;
     right: 40px;
     background-color: skyblue;
     border: 0px solid blue;
@@ -339,14 +334,7 @@ border-radius: 5px;
   cursor: pointer;
 }
 .description{
-    font-size: 24px;
- width: 90%;
- padding: 16px;
-    margin-left: auto;
-  position: relative;
-  color: black;
-  top: -50px;
-  right: 0px;
+  margin-top: 7rem;
 }
 .btn-1{
     width: 8rem;
