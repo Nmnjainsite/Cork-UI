@@ -70,7 +70,6 @@ font-size: larger;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-
     cursor: pointer;
   list-style: none;
   width: 90%;
@@ -84,7 +83,8 @@ font-size: larger;
     position: relative;
 right: -20%;
 margin-right: auto;
-margin-top: 1rem;
+margin-top: 1.5rem;
+
 } 
 
 #nav-sign-link2{
@@ -95,6 +95,7 @@ margin-top: 1rem;
     font-size: 1.5rem;
 margin-left: auto;
 margin-top: 1rem;
+
 } 
 
 /*------------------------------Iframe------------------------------ */
@@ -107,3 +108,39 @@ margin-top: 1rem;
 footer{
     color: var(--background-color);
 }
+
+
+.carousel-button{
+    position: fixed;
+    z-index: 2;
+   background: none;
+   border: none;
+   font-size: 2rem;
+   top: 50%;
+  
+   transform: translateY(-50%);
+   color: rgba(255,255,255,.5);
+   cursor: pointer;
+   border-radius: 0.5rem;
+   padding: 0.5rem;
+   background-color: rgba(0,0,0,.1);
+ }
+ 
+ .carousel-button:hover,
+ .carousel-button:focus{
+     color: white;
+     background-color: rgba(0,0,0,.2);
+   
+ }
+ 
+ .carousel-button:focus{
+     outline: 1px solid black;
+ }
+ 
+ .carousel-button.prev{
+    right: 19rem;
+ }
+ 
+ .carousel-button.next{
+     right: 16rem;
+ }
