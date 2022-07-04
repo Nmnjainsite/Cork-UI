@@ -1,5 +1,7 @@
 @import"./typography.css";
 
+/* ----------------------main content------------------ */
+
 .alert-box{
   list-style: none;
     width: 80%;
@@ -54,11 +56,4 @@
     border: 1px solid lightgreen;
     padding: 0.3rem;
 }
-/* .nav-sign-link{
-    text-decoration: none;
-    color: var(--secondary-color);
-    font-size: 30px;
-margin-left: 45rem;
-position: relative;
-top:-2.4rem
-} */
+

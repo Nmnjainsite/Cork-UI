@@ -1,5 +1,7 @@
 @import "./avatar.css";
 
+/* -------------drawer box css---------------------- */
+
 .list-container{
     display: flex;
     flex-direction: column;
@@ -63,6 +65,8 @@
     background-color: lightgray;
    
   } 
+
+/* ----------------notification bar-------------------------- */
 
   .img-container{
     display: flex;

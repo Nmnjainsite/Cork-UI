@@ -33,6 +33,7 @@ visibility: hidden;
 border: 1px solid var(--primary-color);
 border-radius: 0.5rem;
 color: teal;
+position: absolute;
 }
 
 .yes-btn{
@@ -63,12 +64,13 @@ cursor: pointer;
     color: var(--primary-color);
 }
 
+/* ----------------------nested modal------------------------ */
+
 .show-msg-btn{
     background-color: var(--secondary-color);
     color: var(--background-color);
     border: 1px solid var(--background-color);
 padding: 0.5rem;
-
 border-radius: 0.3rem;
 width: 6rem;
 cursor: pointer;
@@ -84,6 +86,7 @@ visibility: hidden;
 border: 1px solid var(--primary-color);
 border-radius: 0.5rem;
 color: teal;
+position: absolute;
 }
 
 .game-box{
@@ -96,6 +99,7 @@ visibility: hidden;
 border: 1px solid var(--primary-color);
 border-radius: 0.5rem;
 color: teal;
+position: absolute;
 }
 
 #play-btn{
@@ -106,6 +110,7 @@ padding: 0.5rem;
 border-radius: 0.3rem;
 width: 6rem;
 cursor: pointer;
+
 }
 
 #not-btn{
@@ -116,6 +121,7 @@ padding: 0.5rem;
 border-radius: 0.3rem;
 width: 6rem;
 cursor: pointer;
+
 }
 
 #start-btn{
@@ -126,6 +132,7 @@ padding: 0.5rem;
 border-radius: 0.3rem;
 width: 6rem;
 cursor: pointer;
+
 }
 
 #end-btn{
@@ -136,9 +143,8 @@ padding: 0.5rem;
 border-radius: 0.3rem;
 width: 6rem;
 cursor: pointer;
+
 }
 
-footer{
-    position: relative;
-    top: 15rem;
-}
+
+

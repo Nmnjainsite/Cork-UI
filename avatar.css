@@ -35,7 +35,7 @@ width: 80%;
 }
 
 footer{
-    color: black;
+    color: var(--background-color);
     position: relative;
     top: 5rem;
 }

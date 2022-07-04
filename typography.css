@@ -102,3 +102,8 @@ margin-top: 1rem;
     width: 90%;
 
 }
+
+
+footer{
+    color: var(--background-color);
+}

@@ -15,6 +15,7 @@ border-radius: 0.5rem;
     padding: 1rem;
     position: relative;
     justify-content: space-around;
+   
 }
 
 .mail-btn{
@@ -67,6 +68,45 @@ margin-left: 1rem;
     background-color: black;
   
 }
+/*------------------first snackbar mail bar------------ */
+.mail-bar{
+    font-size: 24px;
+    background: none;
+    background-color: teal;
+    color: var(--background-color);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    width: 25%;
+    text-align: center;
+    visibility: hidden;
+    position: absolute;
+   margin-top: -2rem;
+    }
+    
+    .cart-text{
+        font-size: 24px;
+        background: none;
+        background-color: teal;
+        color: var(--background-color);
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+        width: 25%;
+        text-align: center;
+        visibility: hidden;
+        position: absolute;
+        margin-top: -2rem;
+    }
+    
+    .text-box{
+        display: flex;
+        border: 0px solid var(--primary-color);
+    border-radius: 0.5rem;
+        padding: 1rem;
+        position: relative;
+        justify-content: space-around; 
+        margin-top: 2rem;
+    }
+    
 /*---------------------toast-button ------------------ */
 
 .toast-btn{
@@ -92,40 +132,6 @@ margin-left: 1rem;
 .toast-btn:focus{
     background-color: black;
   
-}
-/*------------------first snackbar mail bar------------ */
-.mail-bar{
-font-size: 24px;
-background: none;
-background-color: teal;
-color: var(--background-color);
-padding: 0.5rem;
-border-radius: 0.5rem;
-width: 25%;
-text-align: center;
-visibility: hidden;
-}
-
-.cart-text{
-    font-size: 24px;
-    background: none;
-    background-color: teal;
-    color: var(--background-color);
-    padding: 0.5rem;
-    border-radius: 0.5rem;
-    width: 25%;
-    text-align: center;
-    visibility: hidden;
-}
-
-.text-box{
-    display: flex;
-    border: 0px solid var(--primary-color);
-border-radius: 0.5rem;
-    padding: 1rem;
-    position: relative;
-    justify-content: space-around; 
-    margin-top: 2rem;
 }
 
 /*----------- toast box second snackbar-------------------- */
@@ -321,3 +327,4 @@ footer{
     position: relative;
     top: 7rem;
 }
+

@@ -1,12 +1,14 @@
 @import "./avatar.css";
 
+/* ----------giving layouts to images using grids */
+
 .image-container{
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(2,150px);
-    
     width: 400px;
     padding:1rem ;
+    
 }
 
 .image-grid{
@@ -14,7 +16,6 @@
     color: white;
     padding: 8px 10px;
     width: 150px;
-  
     top: -3px;
     right: -3px;
     margin: auto;

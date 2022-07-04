@@ -1,12 +1,10 @@
 @import "./style.css";
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&family=Libre+Franklin:wght@100&family=Macondo&family=Oleo+Script+Swash+Caps&family=Patua+One&family=Permanent+Marker&family=Signika+Negative:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&family=Gentium+Book+Plus&family=Libre+Franklin:wght@100&family=Macondo&family=Oleo+Script+Swash+Caps&family=PT+Serif:ital,wght@0,400;1,700&family=Patua+One&family=Permanent+Marker&family=Signika+Negative:wght@500;600&display=swap');
 /* -----------first letter of header take the primary color------- */
 h1>a{
     text-decoration: none;
     color: var(--secondary-color);
 }
-
-
 /* ----------------left bar css-------------------- */
 .nav-child{
    float: right;
@@ -22,7 +20,7 @@ top: -18px;
 }
 .nav-bar ul{
 list-style: none;
-margin: 0;
+margin-left: -1rem;
 padding: 0;
 border-right: 1px solid skyblue;
 width: 15%;
@@ -42,7 +40,7 @@ height: 200vh;
    font-size: 1.3rem;
    color: var(--secondary-color);
    cursor: pointer;
-   
+   margin-left: 2rem;
 }
 li>a{
     text-decoration: none;
@@ -82,15 +80,18 @@ li>a{
  width: 60%;
  text-align: left;
 color: black;
+margin-left: -1rem;
 }
+
 
 .intro::first-letter{
     color: skyblue;
 }
 .main-para{
 font-size:20px;
-width: 90%;
-margin-top: 0.1rem;
+width: 95%;
+margin-top: -0.8rem;
+
 }
 /* ---------------header icon---------------------- */
 #left-drawer-icon{
@@ -159,17 +160,22 @@ left: 10px;
 
 /* ----------------footer------------------ */
  footer{
-    
     font-size: 20px;
-    background-color: var(--primary-color); 
+    background-color: teal; 
     font-weight: bold;
     text-align: center;
     padding: 1rem;
   position: relative;
   top:  5rem;
-    color: var(--secondary-color);
+    color: white;
 }
 
+#social-emoji{
+    font-size: 2.8rem;
+    color: white;
+    position: relative;
+    top: 1rem;
+}
 
 footer>div{
     margin-bottom: 10px;
@@ -283,5 +289,46 @@ footer>li{
     .side-nav{
      margin-top: -2.5rem;
     }
+    .carousel-button{
+        visibility: hidden;
+    }
 
    }
+
+/* -----------carousel buttons css */
+
+   .carousel-button{
+    position: fixed;
+    z-index: 2;
+   background: none;
+   border: none;
+   font-size: 2rem;
+   top: 50%;
+  
+   transform: translateY(-50%);
+   color: rgba(255,255,255,.5);
+   cursor: pointer;
+   border-radius: 0.5rem;
+   padding: 0.5rem;
+   background-color: rgba(0,0,0,.1);
+ }
+ 
+ .carousel-button:hover,
+ .carousel-button:focus{
+     color: white;
+     background-color: rgba(0,0,0,.2);
+   
+ }
+ 
+ .carousel-button:focus{
+     outline: 1px solid black;
+ }
+ 
+ .carousel-button.prev{
+    right: 19rem;
+ }
+ 
+ .carousel-button.next{
+     right: 16rem;
+ }
+ 
