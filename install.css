@@ -54,7 +54,7 @@ height: 200vh;
    font-size: 1.3rem;
    color: var(--secondary-color);
    cursor: pointer;
-   margin-left: 2rem;
+margin-left: 2rem;
 }
 li>a{
     text-decoration: none;
@@ -177,7 +177,7 @@ left: 10px;
 
 
 /* ----------------footer------------------ */
- /* footer{
+  footer{
     font-size: 24px;
     background-color: var(--primary-color); 
     font-weight: bold;
@@ -207,7 +207,7 @@ footer>li{
     display: inline;
     margin: 1rem;
     list-style: none;
-}  */
+}  
 /* --------another page nav css---------------- */
 .nav-signs{
   
