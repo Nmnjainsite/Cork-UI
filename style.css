@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&family=Gentium+Book+Plus&family=Libre+Franklin:wght@100&family=Macondo&family=Oleo+Script+Swash+Caps&family=PT+Serif:ital,wght@0,400;1,700&family=Patua+One&family=Permanent+Marker&family=Roboto+Slab:wght@300&family=Signika+Negative:wght@500;600&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Fira+Sans:wght@300;400&family=Gentium+Book+Plus&family=Lato&family=Libre+Franklin:wght@100&family=Lora:ital,wght@1,500&family=Macondo&family=Oleo+Script+Swash+Caps&family=PT+Serif:ital,wght@0,400;1,700&family=Patua+One&family=Permanent+Marker&family=Roboto&family=Roboto+Slab:wght@300&family=Signika+Negative:wght@500;600&display=swap');
+
 *,*::after,*::before{
     box-sizing: border-box;
 }
@@ -24,8 +26,7 @@ body{
     margin: 15px;
     margin-left: 8rem;
   color: var(--secondary-color);
-
- 
+  font-family: 'Lato', sans-serif;
 }
 .header-child{
     color: var(--primary-color);
@@ -151,7 +152,7 @@ padding: 5px;
   height: 5vh;
   margin-bottom: 0px;
   text-align: center;
- 
+  font-family: 'Lato', sans-serif;
 }
 
 
@@ -164,7 +165,7 @@ padding: 5px;
  width: 25%;
  background-color: var(--primary-color);
  cursor: pointer;
-
+ font-family: 'Lato', sans-serif;
  }
 .btn-1>a{
     text-decoration: none;
@@ -182,7 +183,7 @@ padding: 5px;
  width: 25%;
  background-color: var(--primary-color);
  cursor: pointer;
- 
+ font-family: 'Lato', sans-serif;
 }
 
 .btn-2>a:hover{
@@ -207,17 +208,16 @@ left: 0.3rem;
 }
 /*---------------------footer css------------------------- */
 footer{
-   margin-top: 11rem;
-    font-size: 20px;
+   margin-top: 9rem;
+    font-size: 24px;
     background-color: var(--primary-color); 
     font-weight: bolder;
     text-align: center;
     padding: 1rem 1rem;
     color: white;
     height: 11rem;
-margin-left: -3rem;
-margin-right: -3rem;
-margin-top: 9rem;
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
 }
 
 .footer-img{

@@ -1,6 +1,19 @@
 @import "./style.css";
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&family=Gentium+Book+Plus&family=Libre+Franklin:wght@100&family=Macondo&family=Oleo+Script+Swash+Caps&family=PT+Serif:ital,wght@0,400;1,700&family=Patua+One&family=Permanent+Marker&family=Signika+Negative:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&family=Gentium+Book+Plus&family=Libre+Franklin:wght@100&family=Macondo&family=Oleo+Script+Swash+Caps&family=PT+Serif:ital,wght@0,400;1,700&family=Patua+One&family=Permanent+Marker&family=Roboto+Slab:wght@300&family=Signika+Negative:wght@500;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Fira+Sans:wght@300;400&family=Gentium+Book+Plus&family=Lato&family=Libre+Franklin:wght@100&family=Lora:ital,wght@1,500&family=Macondo&family=Oleo+Script+Swash+Caps&family=PT+Serif:ital,wght@0,400;1,700&family=Patua+One&family=Permanent+Marker&family=Roboto&family=Roboto+Slab:wght@300&family=Signika+Negative:wght@500;600&display=swap');
 /* -----------first letter of header take the primary color------- */
+
+h1{
+    font-family: 'Lato', sans-serif;
+}
+h2{
+    font-family: 'Lato', sans-serif;
+}
+h3{
+    font-family: 'Roboto', sans-serif;
+}
+
 h1>a{
     text-decoration: none;
     color: var(--secondary-color);
@@ -23,7 +36,8 @@ list-style: none;
 margin-left: -1rem;
 padding: 0;
 border-right: 1px solid skyblue;
-width: 15%;
+width: 16%;
+font-family: 'Roboto', sans-serif;
 height: 200vh;
 }
 .nav-bar li:hover{
@@ -79,6 +93,7 @@ li>a{
  left: 15rem;
  width: 60%;
 color: black;
+
 }
 
 
@@ -88,8 +103,9 @@ color: black;
 .main-para{
 font-size:20px;
 width: 95%;
-margin-top: -0.1rem;
-align-items: center;
+ font-family: 'Roboto', sans-serif;
+ margin-top: -0.1rem; 
+
 }
 /* ---------------header icon---------------------- */
 #left-drawer-icon{
@@ -160,36 +176,9 @@ left: 10px;
 
 
 
-/* @media only screen and (max-width: 1000px) {
-    
-    .aside{
-      
-    visibility: hidden;
-    }
-    .nav-bar{
-      visibility: hidden;
-       
-    }
-    .col-2{
-        display: flex;
-        flex-wrap: wrap;
-        width: 400px;
-position: absolute;
-left: 10px;
-   font-size: 10px;
-    }
-    #left-drawer-icon{
-        position: relative;
-        top: 0.3rem;
-        font-size: 28px;
-      visibility: visible;
-        } 
-
-} */
-
 /* ----------------footer------------------ */
  footer{
-    font-size: 20px;
+    font-size: 24px;
     background-color: var(--primary-color); 
     font-weight: bold;
     text-align: center;
@@ -217,7 +206,6 @@ footer>i{
 footer>li{
     display: inline;
     margin: 1rem;
-   
     list-style: none;
 } 
 /* --------another page nav css---------------- */

@@ -1,5 +1,7 @@
 @import "./avatar.css";
 
+/* ----------column grid----------- */
+
 .grid-container{
    display: grid;
    border: 1px solid var(--secondary-color);
@@ -14,7 +16,7 @@
     padding: 0.5rem;
     text-align: center;
 }
-
+/* ------------giving layout to columns using grids */
 .grid-container-spanning{
     display: grid;
     border: 1px solid var(--secondary-color);

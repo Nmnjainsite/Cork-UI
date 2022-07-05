@@ -1,9 +1,9 @@
 @import "./typography.css";
 
+/* --------------main-content img-box-------------- */
 
 .image-box{
    display: inline-flex;
- 
  overflow: hidden;
 justify-content: center;
 width: 80%;
@@ -40,6 +40,7 @@ footer{
     top: 5rem;
 }
 
+/* --------------for mobiles------------------- */
 
 @media only screen and (max-width: 600px) {
    body{
@@ -69,6 +70,8 @@ flex-shrink: 1;
    
  
 }
+
+/* ------different sizing images-------- */
 
 .size-box::first-letter{
 color: var(--primary-color);
@@ -128,6 +131,8 @@ font-size: 20px;
    right: 20px;
    margin: auto;
 }
+
+/* ----------grouped avatar images------- */
 .grouped-avatars::first-letter{
    color: var(--primary-color);
 }
@@ -189,6 +194,8 @@ font-size: 20px;
    margin: auto;
 }
 
+
+/* -------card csss---------- */
 .aside{
    width: 14%;
 }

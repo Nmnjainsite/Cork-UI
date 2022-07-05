@@ -53,10 +53,6 @@ font-size: larger;
     padding: 0.5rem;
 }
 
-/* ---------------------------Left Side Nav---------------------- */
-.nav-bar>ul{
-    height: 250vh;
-}
 .grey-text{
     border: 1px solid var(--primary-color);
     text-align: left;
@@ -117,7 +113,6 @@ footer{
    border: none;
    font-size: 2rem;
    top: 50%;
-  
    transform: translateY(-50%);
    color: rgba(255,255,255,.5);
    cursor: pointer;
@@ -144,3 +139,8 @@ footer{
  .carousel-button.next{
      right: 16rem;
  }
+
+
+ /* .nav-bar>ul{
+    height: 250vh;
+} */
