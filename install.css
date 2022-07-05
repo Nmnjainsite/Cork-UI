@@ -121,7 +121,7 @@ iframe{
 }
 
 /* ---------------for mobiles-------------------- */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
 
     body{
         display: flex;
@@ -132,7 +132,7 @@ iframe{
         position: relative;
         font-size: 2rem;
         right: 30%;
-        left: -9rem;
+        left: -4rem;
       }
     .aside{
         visibility: hidden;
@@ -152,24 +152,26 @@ left: 10px;
     }
     .side-nav{
         position: absolute;
-       left:11em;
-       bottom: 2em;
+       left: 18em;
+       bottom: -1em;
+       visibility: hidden;
     }
+   
     #night{
-        left: 2em;
-        top: -3em;
+        left: 1em;
+        top: -5em;
     }
     .git{
-        right: 0.6em;
-        top: -3.5em;
+        left: -2em;
+        top: -7em;
     }
     .docs{
-        right: 5rem;
-        top: -1.5em;
+        right: 7rem;
+        top: -4.5em;
     }
     .version{
-        right: 7em;
-       top: -0.3em;
+        right: 8em;
+       top: -3.3em;
     }
    
 }
@@ -275,8 +277,8 @@ footer>li{
         top: -1rem;
            font-size: 2rem;
            padding: 16px;
-           margin: 15px;
-           margin-left: -1rem;
+          
+          
          color: var(--secondary-color);
        ;
        }
@@ -284,8 +286,8 @@ footer>li{
        .input{
         margin-left: auto;
         position: relative;
-        top: 0.1rem;
-     right: 9rem;
+        top:  -3rem;
+     right: 19rem;
        border: 1px solid blue;
        border-radius: 4px;
        padding-inline-start: 35px;
@@ -294,17 +296,17 @@ footer>li{
 
     .search-btn{
         margin-left: auto;
-    color: white;
+    color: blue;
         position: relative;
-        top: -2.3rem;
-        right:6.3rem;
+       top: -5rem;
+        right:17rem;
         font-size: 1rem;
         padding: 4px ;
         cursor: pointer;
     }
 
     .side-nav{
-     margin-top: -2.5rem;
+     margin-bottom: 2rem;
     }
     .carousel-button{
         visibility: hidden;
