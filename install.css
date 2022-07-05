@@ -177,7 +177,7 @@ left: 10px;
 
 
 /* ----------------footer------------------ */
- footer{
+ /* footer{
     font-size: 24px;
     background-color: var(--primary-color); 
     font-weight: bold;
@@ -207,7 +207,7 @@ footer>li{
     display: inline;
     margin: 1rem;
     list-style: none;
-} 
+}  */
 /* --------another page nav css---------------- */
 .nav-signs{
   
