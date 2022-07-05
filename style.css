@@ -211,6 +211,7 @@ footer{
    margin-top: 9rem;
     font-size: 24px;
     background-color: var(--primary-color); 
+    border-radius: 1rem;
     font-weight: bolder;
     text-align: center;
     padding: 1rem 1rem;
