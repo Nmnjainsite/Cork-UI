@@ -11,6 +11,6 @@ website of  project-componentLibrary
 
   # Components Present
 
-[Alert.html] 
+[Alert](https://component-library-beta.vercel.app/alert.html)  
   * Basic
   * Outlined
