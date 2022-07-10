@@ -2,7 +2,7 @@
 
 website of  project-componentLibrary
 
- * Text Utilities,
+[Text Utilities] 
 
 * headings
 * small text
@@ -11,6 +11,6 @@ website of  project-componentLibrary
 
   # Components Present
 
- * Alert
+[Alert] 
   * Basic
   * Outlined
