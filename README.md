@@ -11,6 +11,6 @@ website of  project-componentLibrary
 
   # Components Present
 
-[Alert] 
+[Alert.html] 
   * Basic
   * Outlined
