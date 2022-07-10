@@ -2,9 +2,15 @@
 
 website of  project-componentLibrary
 
-Text Utilities,
+## Text Utilities,
 
- 1.headings
-  2.small text
-  3.gray text
-  4.center text
+*headings
+*small text
+*gray text
+ *center text
+
+  # Components Present
+
+ ## Alert
+  *Basic
+  *Outlined
