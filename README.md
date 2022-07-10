@@ -2,7 +2,7 @@
 
 website of  project-componentLibrary
 
-[Text Utilities] 
+[Typography](https://component-library-beta.vercel.app/typography.html) 
 
 * headings
 * small text
