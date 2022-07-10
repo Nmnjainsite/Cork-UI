@@ -80,7 +80,7 @@ li>a{
   
     }
 
-    /* ------------main content css------------------ */
+    /* ------------typography css------------------ */
 
 .col-2{
   display: flex;
@@ -179,10 +179,12 @@ left: 10px;
 
 /* ----------------footer------------------ */
   footer{
+
     font-size: 24px;
     background-color: var(--primary-color); 
     font-weight: bold;
     text-align: center;
+    height: 8rem;
     padding: 1rem;
     border-radius:1rem;
   position: relative;
@@ -190,12 +192,6 @@ left: 10px;
     color: var(--background-color);
 }
 
-#social-emoji{
-    font-size: 2.8rem;
-    color: var(--background-color);
-    position: relative;
-    top: 1rem;
-}
 
 footer>div{
     margin-bottom: 10px;
