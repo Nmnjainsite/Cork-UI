@@ -67,7 +67,7 @@ website of  project-componentLibrary
 * Nested Modal
 
 [Navigation](https://component-library-beta.vercel.app/nav.html) 
-* Desktop[Simple]
+* Desktop(Simple)
 
 [Rating](https://component-library-beta.vercel.app/rating.html) (for eCommerce)
 
@@ -76,7 +76,7 @@ website of  project-componentLibrary
 * Image SLider
 
 [Snackbar](https://component-library-beta.vercel.app/snackbar.html)
-[Toast/Notify](https://component-library-beta.vercel.app/snackbar.html)
+* [Toast/Notify](https://component-library-beta.vercel.app/snackbar.html)
 * Email
 * Add To Cart
 * Positioned snackbars
