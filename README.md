@@ -2,7 +2,7 @@
 
 website of  project-componentLibrary
 
-[Typography](https://component-library-beta.vercel.app/typography.html) 
+*[Typography](https://component-library-beta.vercel.app/typography.html) 
 
 * headings
 * small text
@@ -11,6 +11,9 @@ website of  project-componentLibrary
 
   # Components Present
 
-[Alert](https://component-library-beta.vercel.app/alert.html)  
+*[Alert](https://component-library-beta.vercel.app/alert.html)  
   * Basic
   * Outlined
+  
+*[Avatar] (https://component-library-beta.vercel.app/alert.html)  
+* Image-size-grouped
