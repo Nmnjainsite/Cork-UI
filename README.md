@@ -22,7 +22,7 @@ website of  project-componentLibrary
 * Badge on Icon
 * Badge on Avatar
 
-[Button] (https://component-library-beta.vercel.app/button.html)  
+[Button](https://component-library-beta.vercel.app/button.html)  
 * Primary
 * Outlined
 * Disabled
@@ -36,7 +36,7 @@ website of  project-componentLibrary
 * Icon Button
 * Floating
 
-[Card] (https://component-library-beta.vercel.app/card.html) 
+[Card](https://component-library-beta.vercel.app/card.html) 
 * Cards with badges
 * Cards with dismiss
 * Cards with text overlay
@@ -44,11 +44,11 @@ website of  project-componentLibrary
 * Vertical/Horizontal cards
 * Cards with shadow
 
-[Grid] (https://component-library-beta.vercel.app/grid.html) 
+[Grid](https://component-library-beta.vercel.app/grid.html) 
 * Template Columns:4 Items in a grid column
 * Template Areas
 
-[Image] (https://component-library-beta.vercel.app/image.html) 
+[Image](https://component-library-beta.vercel.app/image.html) 
 * Standard image list
 * Sized images
 * Round image
@@ -58,25 +58,25 @@ website of  project-componentLibrary
 * Sign Up Form
 * Radio - checkbox - file input - date & time
 
-[Lists] (https://component-library-beta.vercel.app/list.html) 
+[Lists](https://component-library-beta.vercel.app/list.html) 
 * Spaced (basic List)
 * Stacked (notification Page)
 
-[Modal] (https://component-library-beta.vercel.app/modal.html) 
+[Modal](https://component-library-beta.vercel.app/modal.html) 
 * Simple Modal
 * Nested Modal
 
-[Navigation] (https://component-library-beta.vercel.app/nav.html) 
+[Navigation](https://component-library-beta.vercel.app/nav.html) 
 * Desktop[Simple]
 
-[Rating] (https://component-library-beta.vercel.app/rating.html) (for eCommerce)
+[Rating](https://component-library-beta.vercel.app/rating.html) (for eCommerce)
 
-[Slider] (https://component-library-beta.vercel.app/slider.html) 
+[Slider](https://component-library-beta.vercel.app/slider.html) 
 * Volume Slider
 * Image SLider
 
-[Snackbar] (https://component-library-beta.vercel.app/snackbar.html)
-## Toast/Notify 
+[Snackbar](https://component-library-beta.vercel.app/snackbar.html)
+[Toast/Notify](https://component-library-beta.vercel.app/snackbar.html)
 * Email
 * Add To Cart
 * Positioned snackbars
