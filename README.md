@@ -12,17 +12,17 @@ website of  project-componentLibrary
   # Components Present
 
 [Alert](https://component-library-beta.vercel.app/alert.html)  
-  * Basic
-  * Outlined
+  *Basic
+  *Outlined
   
-[Avatar] (https://component-library-beta.vercel.app/avatar.html)  
-* Image-size-grouped
+[Avatar](https://component-library-beta.vercel.app/avatar.html)  
+*Image-size-grouped
 
 [Badge](https://component-library-beta.vercel.app/badge.html)  
 *Badge on Icon
 *Badge on Avatar
 
-[Button] (https://component-library-beta.vercel.app/button.html)  
+[Button](https://component-library-beta.vercel.app/button.html)  
 *Primary
 *Outlined
 *Disabled
