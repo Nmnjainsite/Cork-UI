@@ -1,4 +1,4 @@
- # componentlibfinally
+ # Component Library
 
 website of  project-componentLibrary
 
